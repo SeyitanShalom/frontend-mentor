@@ -9,7 +9,7 @@ import { FaXTwitter } from "react-icons/fa6";
 const Footer = () => {
   return (
     <div
-      className="px-5 sm:px-7 md:px-10 lg:px-20 w-full mt-20 bg-no-repeat bg-cover flex justify-center items-center text-white "
+      className="px-5 sm:px-7 md:px-10 lg:px-20 w-full mt-20 bg-no-repeat bg-cover flex justify-center items-center text-white border-t-2 border-white"
       style={{
         backgroundImage: "url('/images/bg-footer-top-desktop.svg')",
         backgroundPosition: "center top",

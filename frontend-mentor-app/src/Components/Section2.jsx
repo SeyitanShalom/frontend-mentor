@@ -3,7 +3,7 @@ import convoImage from "../Assets/images/illustration-flowing-conversation.svg";
 import Image from "next/image";
 const Section2 = () => {
   return (
-    <div className="px-5 sm:px-7 md:px-10 lg:px-20 w-full flex items-center justify-center mb-20 text-cyan-950 ">
+    <div className="px-5 sm:px-7 md:px-10 lg:px-20 w-full flex items-center justify-center mb-20 text-cyan-950 dark:text-white">
       <div className="flex flex-col md:flex-row justify-between items-center w-full md:w-4/5  md:gap-x-10 gap-y-16 ">
         <div className="w-full md:w-1/2 flex justify-center items-center">
           <img src={convoImage.src} alt="" className="w-80 md:w-120" />

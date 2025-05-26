@@ -6,11 +6,11 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="px-5 sm:px-7 md:px-10 lg:px-20 flex flex-col items-center justify-center mt-28 text-cyan-950">
-      <h1 className="text-[30px] md:text-[35px] leading-10 lg:text-[40px] text-center font-bold text-cyan-950">
+    <div className="px-5 sm:px-7 md:px-10 lg:px-20 flex flex-col items-center justify-center mt-28 text-cyan-950 dark:text-white">
+      <h1 className="text-[30px] md:text-[35px] leading-10 lg:text-[40px] text-center font-bold ">
         Build The Community Your Fans Will Love
       </h1>
-      <p className="mt-4 text-sm lg:text-base font-medium text-cyan-950 w-96 max-w-120 text-center">
+      <p className="mt-4 text-sm lg:text-base font-medium  w-96 max-w-120 text-center">
         Huddle re-imagines the way we build communities. You have a voice, but
         so does your audience. Create connections with your users as you engage
         in genuine discussion.
@@ -33,9 +33,7 @@ const Hero = () => {
               height={20}
               className="w-6"
             />
-            <h2 className="text-6xl sm:text-5xl font-bold text-cyan-950">
-              1.4k+
-            </h2>
+            <h2 className="text-6xl sm:text-5xl font-bold ">1.4k+</h2>
             <p className="sm:text-xs text-gray-500 font-semibold pt-1">
               Communities Formed
             </p>
@@ -48,9 +46,7 @@ const Hero = () => {
               height={20}
               className="w-6"
             />
-            <h2 className="text-6xl sm:text-5xl font-bold text-cyan-950">
-              2.7m+
-            </h2>
+            <h2 className="text-6xl sm:text-5xl font-bold ">2.7m+</h2>
             <p className="sm:text-xs text-gray-500 font-semibold pt-1">
               Messages Sent
             </p>
