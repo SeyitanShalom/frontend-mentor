@@ -31,14 +31,10 @@ export default function Home() {
       {/* <button className="">{darkMode ? "LHT" : "DRK"}</button> */}
       <button
         className=" fixed right-5
-         bottom-7 px-6 py-2 bg-pink-600 text-white rounded-full hover:bg-pink-800 dark:hover:bg-pink-400 dark:hover:text-white transition-all duration-300 ease-in-out z-50 shadow-lg cursor-pointer"
+         bottom-20 px-6 py-2 bg-pink-600 text-white rounded-full hover:bg-pink-800 dark:hover:bg-pink-400 dark:hover:text-white transition-all duration-300 ease-in-out z-50 shadow-lg cursor-pointer"
         onClick={toggleDarkMode}
       >
-        {darkMode ? (
-          <FaSun className=" text-2xl" />
-        ) : (
-          <FaMoon className=" text-2xl" />
-        )}
+        {darkMode ? <FaSun className=" " /> : <FaMoon className=" " />}
       </button>
     </div>
   );
